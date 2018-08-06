@@ -1,9 +1,8 @@
 body { 
-    display: flex;
-    flex-direction: column;
     height: 100%;
     font-family: 'Montserrat Alternates', sans-serif;
-
+    display: flex;
+    flex-direction: column;
 }    
 
 nav { height: 60px;
@@ -91,30 +90,14 @@ ul {height: 225px;
 
 .li {padding: 8px;
 }
-.row {
+.row { flex-direction: column;
     display: flex;
     justify-content: space-around;
 }
 
-.column { flex-flow: column;
-    background-color:white;
-    padding: 15px; 
+[class*="col-"] { flex-direction: column;
+    width: 100%;
 }
-
-.p_column { flex-direction: column;
-}
-.col_left {
-    flex: 2
-}
-
-.col_main {
-    flex: 4;
-}
-
-.col_rt {
-    flex: 1;
-}
-
 
 .header { 
     position: absolute;
@@ -143,17 +126,27 @@ ul {height: 225px;
     color:white;
 }
 
-@media (max-width: 980px) {
+@media (min-width: 980px) {
+    .row { flex-direction: row;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .column { flex-direction: column;
+        background-color:white;
+        padding: 15px; 
+    }
+    
+    .col-4 { flex-direction: column;
+    }
 }
 
 @media (max-width: 768px) {
     body { background-color: darkgrey;
     }
 }
-@media (max-width: 640px) {
-    body { background-color: darkgrey;
-    }
-    
+@media (min-width: 640px) {
+
     /* I understand 'max-width' query is used when your site is designed "Desktop first" ;
     'min-width' is used if you've designed "Mobile first";
      But I don't think I need to change "flex-direction: column" or "flex-direction: row" 
