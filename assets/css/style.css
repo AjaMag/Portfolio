@@ -1,3 +1,11 @@
+.site {
+    background:
+        linear-gradient(red, transparent),
+        linear-gradient(to top left, lime, transparent),
+        linear-gradient(to top right, blue, transparent);
+    background-blend-mode: screen;
+}
+
 body { 
     height: 100%;
     font-family: 'Montserrat Alternates', sans-serif;
@@ -7,7 +15,7 @@ body {
 
 nav { height: 60px;
 justify-content: space-between;
-background-color:lightgray;
+background-color:white;
 display: flex;
 margin-top: 25px;
 }
@@ -107,23 +115,15 @@ ul {height: 225px;
     text-align: center;
 }
 
-@keyframes pageName {
-    0%   {background-color:lightslategrey}
-    25%  {background-color:yellow}
-    50%  {background-color:blue}
-    75%  {background-color:green}
-    100% {background-color:red}
-}
-
 .footer {
     margin: auto auto 0 auto;
-    background-color: darkgrey;
+    background-color: white;
     position: fixed;
     bottom: 0;
     padding: 2px;
     width: 100%;
     text-align: center;
-    color:white;
+    color:darkgrey;
 }
 
 @media (min-width: 980px) {
