@@ -1,2 +1,3 @@
 # Responsive-Portfolio
-HW from week 2
+Enjoy all the following items on my Portfolio!
+
