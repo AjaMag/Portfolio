@@ -107,13 +107,13 @@ ul {height: 225px;
     width: 100%;
 }
 
-.header { 
+/* .header { 
     position: absolute;
     animation: pageName 5s ease 0.5s infinite alternate;
     border-radius: 45%;
     line-height: 70px;
     text-align: center;
-}
+} */
 
 .footer {
     margin: auto auto 0 auto;
