@@ -107,14 +107,6 @@ ul {height: 225px;
     text-align: center;
 }
 
-@keyframes pageName {
-    0%   {background-color:lightslategrey}
-    25%  {background-color:yellow}
-    50%  {background-color:blue}
-    75%  {background-color:green}
-    100% {background-color:red}
-}
-
 .footer {
     margin: auto auto 0 auto;
     background-color: darkgrey;
@@ -153,12 +145,5 @@ ul {height: 225px;
     body { background-color: darkgrey;    
     }
 }
-@media (min-width: 640px) {
 
-    /* I understand 'max-width' query is used when your site is designed "Desktop first" ;
-    'min-width' is used if you've designed "Mobile first";
-     But I don't think I need to change "flex-direction: column" or "flex-direction: row" 
-     (or to change any other flex properties) in order to get the columns to stack up 
-     on each other because when I checked it in the Inspection tool, the columns already 
-     do this for each different media size*/
 }
