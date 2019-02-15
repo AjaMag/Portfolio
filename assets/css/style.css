@@ -62,10 +62,6 @@ img {display: flex;
     margin-top: 70px;
 }
 
-a:hover {
-    color: blue;
-}
-
 .myName { padding-left: 8px;
     display: flex;
     font-size: 18px;
@@ -94,7 +90,7 @@ a:hover {
 }
 
 @media (min-width: 980px) {
-body, .nav-wrapper, .footer {
+body, .nav-wrapper, .footer, a {
     background-color:rgb(12, 11, 11);
     color: white;
 }
@@ -117,7 +113,7 @@ body, .nav-wrapper, .footer {
     .row {
         padding-left: 65px;
     }
-    body, .nav-wrapper, .footer { 
+    body, .nav-wrapper, .footer, a { 
         background-color: darkgrey;
         color: black;    
     }
