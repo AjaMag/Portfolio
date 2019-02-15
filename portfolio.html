@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">     
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet">
     <title>AjaMag_Portfolio</title>
 </head>
 <body>
     <nav>
         <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#!" class="brand-logo">Aja Magdaleno</a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
             <li><a href="index.html">About</a></li>
@@ -46,27 +48,19 @@
                 <img class="p_img p_img2" src="./images/CONSUMERISM.JPG" alt="Multi-color 3-d Graphic">
         </div>
     </div>
-  
-    <div class="row">
-            <div class="col-4">
-                <h1></h1>
-                <h2></h2>
-                <p>Desgin design design.</p> 
-                <p>Feel   |   Functionality
-                </p>
-                <h1>Book 2
-                </h1>   
-            </div>
-            <div class="col-4">
-                    <h1></h1>
-                    <img class="p_img" src="./images/beverage-black-coffee-blur-1235717.jpg" alt="Multi-Blue color Graphic" height="300" width="400">
-                    <img class="p_img" src="./images/dreamland.JPG" alt="Multi-color 3-d scene" height="300" width="400">
-            </div>
-            <div class="col-4">
-                    <img class="p_img p_img2 p_img3" src="./images/tipotheiceberg.JPG" alt="Multi-color 3-d Graphic">
-                    <img class="p_img p_img2" src="./images/CONSUMERISM.JPG" alt="Multi-color 3-d Graphic">
-            </div>
-        </div>
     <footer class="footer">Copyright@</footer>
+
+     <!--JQuery Script-->
+     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+     crossorigin="anonymous">
+     </script>
+     <!--Materialize Script-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <script> 
+         $(document).ready(function(){
+             $('.sidenav').sidenav();
+         });
+     </script>
+
 </body>
 </html>

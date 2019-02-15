@@ -5,15 +5,13 @@ body {
     flex-direction: column;
 }    
 
-nav { height: 60px;
+.nav-wrapper { height: auto;
 justify-content: space-between;
 background-color:lightgray;
-display: flex;
-margin-top: 25px;
+ 
 }
 
-.navMenu { display: flex;
-width: 300px;
+.navMenu {
 align-items: center;
 }
 
@@ -76,7 +74,7 @@ a:hover {
     align-items: center;
 }
 
-ul {height: 225px;
+/* ul {height: 225px;
     width: 300px;
     background-color: rgb(0, 153, 255);
     border-radius: 30%;
@@ -86,7 +84,7 @@ ul {height: 225px;
     align-content: center;
     justify-content: center;
     padding-left: 20px;   
-}
+} */
 
 .li {padding: 8px;
 }
@@ -97,14 +95,6 @@ ul {height: 225px;
 
 [class*="col-"] { flex-direction: column;
     width: 100%;
-}
-
-.header { 
-    position: absolute;
-    animation: pageName 5s ease 0.5s infinite alternate;
-    border-radius: 45%;
-    line-height: 70px;
-    text-align: center;
 }
 
 .footer {

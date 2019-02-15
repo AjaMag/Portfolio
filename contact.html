@@ -5,25 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">     
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet">
     <title>AjaMag_Contact</title>
 </head>
 <body>
     <nav>
-        <h1 class="myName">Aja-Monique Magdaleno</h1>
-        <div class="navMenu">
-            <div>
-                <a href="index.html">About</a>
-            </div>
-            <div>
-                <a href="portfolio.html">Portfolio</a>
-            </div>
-            <div>
-                <a href="contact.html">Contact</a>
-            </div>
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Aja Magdaleno</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
         </div>
-    </nav>    
+    </nav>
+        <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+           
     <section class="row">
         <div class="column">
             <div>
@@ -45,5 +50,17 @@
     </section>
 
     <footer class="footer">Copyright@</footer>
+ <!--JQuery Script-->
+ <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+ crossorigin="anonymous">
+ </script>
+ <!--Materialize Script-->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ <script> 
+     $(document).ready(function(){
+         $('.sidenav').sidenav();
+     });
+ </script>
+
 </body>
 </html>

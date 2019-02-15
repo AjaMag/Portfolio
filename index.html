@@ -7,21 +7,22 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">     
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet">
     <title>Aja Monique Magdaleno</title>
 </head>
 <body class="site">
-        <nav>
-            <div class="nav-wrapper">
-                <a href="#!" class="brand-logo">Logo</a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                <ul class="right hide-on-med-and-down">
+    <nav>
+        <div class="nav-wrapper">
+            <a href="portfolio.html" class="brand-logo">Aja Magdaleno</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
                 <li><a href="index.html">About</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-            </nav>
+            </ul>
+        </div>
+    </nav>
     
         <ul class="sidenav" id="mobile-demo">
             <li><a href="index.html">About</a></li>
@@ -31,22 +32,19 @@
 
     <div class="row">
         <div class="col-6">
-            <h1>ABOUT ME</h1>
             <img src="./images/AjaMag.jpg" alt="Aja's Close-up" height="300" width="400">
             <h3>Skills ... </h3>
             <br>
             <p>JavaScript</p> 
+            <p>ES6</p>
+            <p>JQuery</p>
             <p>CSS</p>
-            <p>Materialize</p>
-            <p>Bootstrap</p>
-
         </div>
         <div class="col-6">
-            <h1>RESPONSIVE ELEMENTS</h1>
             <img src="./images/aja_sf_valley (1).JPG" alt="Aja on top of a Mountain" height="300" width="475">
             <h3>Frameworks ... Libraries</h3>
             <br>
-            <p>SQL</p>
+            <p>Bootstrap</p>
             <p>MongoDB</p>
             <p>Express</p>
             <p>React</p>
@@ -56,15 +54,18 @@
    
     <footer class="footer">Copyright@</footer>
 
+     <!--JQuery Script-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
     <!--Materialize Script-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script> 
-    $(document).ready(function(){
-        $('.sidenav').sidenav();
-      });
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+        });
     </script>
           
-
 </body>
 
 </html>
