@@ -99,40 +99,41 @@ a:hover {
 
 .footer {
     margin: auto auto 0 auto;
-    background-color: darkgrey;
     position: fixed;
     bottom: 0;
     padding: 2px;
     width: 100%;
     text-align: center;
-    color:white;
 }
 
 @media (min-width: 980px) {
+body, .nav-wrapper, .footer {
+    background-color:rgb(12, 11, 11);
+    color: white;
+}
+
     .row { flex-direction: row;
         display: flex;
         justify-content: space-around;
-        padding-left: 50px;
+        padding-left: 2rem;
         padding-right: 20px;
-
     }
     
-    .column { flex-direction: column;
-        background-color:white;
+    .col { flex-direction: column;
         padding: 15px; 
     }
-    
+/*     
     .col-4 { flex-direction: column;
-    }
+    } */
 }
 @media (max-width: 979px) {
     .row {
         padding-left: 65px;
     }
-}
-
-@media (max-width: 768px) {
-    body { background-color: darkgrey;    
+    body, .nav-wrapper, .footer { 
+        background-color: darkgrey;
+        color: black;    
     }
 }
+
 
