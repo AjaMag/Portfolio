@@ -18,28 +18,40 @@ align-items: center;
 padding-right: 15px;
 }
 
+.parallax-container {
+height: 20rem;
+}
 
-h1 { font-size: 2rem;
+.section {
+height: 20rem;
+} 
+
+h1 { font-size: 4.5rem;
 display: flex;
-margin: 1rem;
+margin: 2rem;
+text-align: justify;
+color: white;
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 3rem;
     padding: 15px;
     margin-bottom: 18px;
+    color: white;
+}
+
+h4 {
+    text-align: justify; 
 }
 
 p {font-size: 15px;
-    padding: 10px;
+    padding: 3rem;
+    color: white;
 }
 
-img {display: flex;
-    height: 250px;
-    width: 300px;
-    padding: 20px;
-    border-radius: 75%;
-}
+a:hover { 
+    color: yellow;
+  }
 
 .p_img {
     display: flex;
@@ -79,14 +91,6 @@ img {display: flex;
     width: 100%;
 }
 
-.footer {
-    margin: auto auto 0 auto;
-    position: fixed;
-    bottom: 0;
-    padding: 2px;
-    width: 100%;
-    text-align: center;
-}
 
 @media (min-width: 980px) {
 body, .nav-wrapper, .footer, a {

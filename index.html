@@ -30,41 +30,74 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
 
-    <div class="row">
-        <div class="col col-6">
-            <img class="p_img" src="./images/AjaMag.jpg" alt="Aja's Close-up" height="350" width="400">
-            <h3>Skills ... </h3>
-            <br>
-            <p>HTML</p>
-            <p>JavaScript</p> 
-            <p>ES6</p>
-            <p>JQuery</p>
-            <p>CSS</p>
+<div class="parallax-container">
+    <div class="parallax"><img src="./images/forest.png"></div>
+        <h1>Aja Monique Magdaleno</h1> 
+</div>   
+    <div class="section black">
+            <h2 class="header">About Me</h2>   
+        <div class="row">
+            <div class="col-6">
+                <img class="p_img" src="./images/AjaMag.jpg" alt="Aja's Close-up" height="350" width="400">
+            </div>
+            <div class="col-6">
+                <h6>I am a High School mathematics teacher turned Website Developer. I believe everyone 
+                    on the team always has something to contribute. I enjoy empowering others to 
+                    practice perseverance, patience, and grit.
+                </h6>
+            </div>
         </div>
-        <div class="col col-6">
-            <img src="./images/aja_sf_valley (1).JPG" alt="Aja on top of a Mountain" height="300" width="475">
-            <h3>Frameworks ... Libraries</h3>
-            <br>
-            <p>MongoDB</p> 
-            <p>Express</p>
-            <p>React</p>
-            <p>Node</p>
-            <p>Materialize</p>
-    
-        </div>              
-    </div>     
-   
+    </div>
+            
+        
+<div class="parallax-container">
+    <div class="parallax"><img src="./images/math-picture.jpg"></div>
+</div>
+<div class="section black">   
+    <div class="row container">
+        <h2>Skills and Technologies</h2>
+        <div class="col col-3">
+            <h6>HTML</h6>
+            <h6>JavaScript</h6> 
+            <h6>ES6</h6>
+            <h6>JQuery</h6>
+            <h6>CSS</h6>
+        </div>
+        <div class="col col-3">
+            <h6>MERN Full Stack</h6>
+            <h6>MongoDB</h6> 
+            <h6>Express</h6>
+            <h6>React</h6>
+            <h6>Node</h6>    
+        </div>
+        <div class="col col-3">
+            <h6>NPM Packages</h6>
+            <h6>Github/Heroku</h6>
+            <h6>Firebase</h6>
+            <h6>APIs and AJAX</h6>
+            <h6>SQL/MySQL</h6>
+        </div>
+    </div>
+</div>
 
+                        
      <!--JQuery Script-->
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous">
     </script>
-    <!--Materialize Script-->
+    <!--SideNav Script-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script> 
         $(document).ready(function(){
             $('.sidenav').sidenav();
         });
+    </script>
+    <!--Parallax Script-->
+    <script>
+        $(document).ready(function(){
+            $('.parallax').parallax();
+        });
+        
     </script>
           
 </body>
