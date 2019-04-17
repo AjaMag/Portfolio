@@ -19,7 +19,7 @@ padding-right: 15px;
 }
 
 .parallax-container {
-height: 20rem;
+height: 30rem;
 }
 
 .section {
@@ -91,6 +91,10 @@ a:hover {
     width: 100%;
 }
 
+#portfolio1 {
+    padding-bottom: 2rem;
+    position: 50%;
+}
 
 @media (min-width: 980px) {
 body, .nav-wrapper, .footer, a {
