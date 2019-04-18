@@ -7,7 +7,7 @@ body {
 
 .nav-wrapper { height: auto;
 justify-content: space-between;
- 
+background-color: black;
 }
 
 .navMenu {
@@ -19,12 +19,16 @@ padding-right: 15px;
 }
 
 .parallax-container {
-height: 30rem;
+height: 32rem;
 }
 
 .section {
 height: 20rem;
 } 
+
+.darkgrey {
+    background-color:  rgb(59, 59, 59);
+    } 
 
 h1 { font-size: 4.5rem;
 display: flex;
@@ -91,17 +95,19 @@ a:hover {
     width: 100%;
 }
 
-#portfolio1 {
-    padding-bottom: 2rem;
-    position: 50%;
+#PortfolioHead {
+    color: black;
 }
 
 @media (min-width: 980px) {
-body, .nav-wrapper, .footer, a {
-    background-color:rgb(12, 11, 11);
+body, .nav-wrapper, .footer {
+    background-color:black;
     color: white;
 }
 
+a:hover { 
+    color: yellow;
+  }
     .row { flex-direction: row;
         display: flex;
         justify-content: space-around;
@@ -112,18 +118,35 @@ body, .nav-wrapper, .footer, a {
     .col { flex-direction: column;
         padding: 15px; 
     }
-/*     
-    .col-4 { flex-direction: column;
-    } */
+
 }
 @media (max-width: 979px) {
+    body, .nav-wrapper, .footer {
+        background-color:black;
+    }
+    h5 {
+        color: white;
+    }
+    #about {
+        font-size: 1.5rem;
+         
+    }
+    .li {
+        color: white;
+    }
+    #h1 {
+        font-size: 4rem;
+    }
+    a:hover { 
+    color: yellow;
+    }
     .row {
-        padding-left: 65px;
+        padding-right: 2.75rem;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
     }
-    body, .nav-wrapper, .footer, a { 
-        background-color: darkgrey;
-        color: black;    
-    }
+
 }
 
 
