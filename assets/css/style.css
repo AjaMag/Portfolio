@@ -132,7 +132,7 @@ a:hover {
     }
     .fontWithShadow {
         font-size: 1.5rem;
-        text-shadow: 2px 2px 1em black;
+        text-shadow: 2px 2px 5px black;
         font-weight: 900;
     }
     .li {
